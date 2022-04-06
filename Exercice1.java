@@ -7,6 +7,7 @@ public class Exercice1 {
         for (E o: others){
             if (o.compareTo(max) > 0){
                 max  = o;
+                super max = 0 ; 
             }
         }
         return max;
